@@ -1,0 +1,15 @@
+<h1>Promedio y sumatoria de las edades</h1>
+<br><br>
+<input type="text" value="edadUno" [(ngModel)] = "ageOne">
+<br><br>
+<input type="text" value="edadDos" [(ngModel)] = "ageTwo">
+<br><br>
+<input type="button" value="Calcular promedio" (click)="calcularPromedio(ageOne,ageTwo)">
+<br><br>
+<input type="button" value="Calcular suma" (click)="calcularSuma(ageOne,ageTwo)">
+<br><br>
+<input type="button" value="Limpiar casilleros" (click)="limpiarCasilleros()">
+<br><br>
+<input type="text" value="calcularPromedio()" [(ngModel)] = "ageProm">
+<br><br>
+<input type="text" value="calcularSuma()" [(ngModel)] = "ageAdd">
